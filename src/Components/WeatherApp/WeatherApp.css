@@ -1,0 +1,101 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.baseBox{
+    background-image: url("https://images.pexels.com/photos/39811/pexels-photo-39811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    height: 100vh;
+}
+.topBar{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+}
+
+.textInput{
+    width:40%;
+    height: 40px;
+    margin-right: 25px;
+    border-radius: 20px;
+}
+
+.textInput input{
+    width: 100%;
+    height: 40px;
+    opacity: 0.3;
+}
+
+.ButtonForSearch {
+    height: 40px;
+    width: 15%;
+    background-color: rgb(29, 141, 135);
+    cursor: pointer;
+    
+}
+
+.ButtonForSearch button {
+    height: 100%;
+    width: 100%;
+    outline: none; 
+    border: none;
+}
+
+
+
+.SecondMainBox{
+    border: 2px solid rgb(175, 236, 246);
+    height: 500px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 80px;
+    border-radius: 25px;
+}
+
+.parentBox{
+    display: flex;
+    
+}
+.ImageBox{
+height: 100px;
+width: 100px;
+padding-top: 6%;
+margin-left: 10%;
+}
+.OtherDetails{
+    padding-top: 6%;
+    margin-left: 5%;
+}
+.OtherDetails p{
+    color: black; 
+}
+
+.parentBox-02{
+    border: 3px solid rgb(172, 226, 234);
+    height: 40px;
+    width:100%;
+    margin-right: 25%;
+    border-radius: 20px;
+    padding-top: 15;
+    font-size: larger;
+}
+.parentBox-03{
+    border: 3px solid rgb(172, 226, 234);
+    height: 40px;
+    width:100%;
+    margin-right: 25%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 15;
+    font-size: larger;
+}
+.parentBox-04{
+    border: 3px solid rgb(172, 226, 234);
+    height: 40px;
+    width:100%;
+    margin-right: 25%;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 15;
+    font-size: larger;
+}
