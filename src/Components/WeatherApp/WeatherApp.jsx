@@ -7,7 +7,7 @@ import SunnyDay_BG from '../../Assets/Sunny-dayflowers.webp'
 import scattered_Clouds from '../../Assets/scattered_Clouds.png'
 
 const api = {
-    key : "ee74b430c01ab3ea9eea677f064c4f80",
+    key : process.env.REACT_APP_API,
     base: "https://api.openweathermap.org/data/2.5/"
     
 }
